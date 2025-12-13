@@ -15,4 +15,16 @@ export const routes: Routes = [
     path: 'b',
     component: BComponent,
   },
+   {
+    path: 'c',
+    component: CComponent,
+  },
+   {
+    path: 'd',
+    component: DComponent,
+  },
+   {
+    path: 'e',
+    component: EComponent,
+  },
   ];
