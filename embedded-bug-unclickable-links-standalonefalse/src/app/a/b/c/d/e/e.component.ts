@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-e',
-  imports: [],
+ // imports: [],
   templateUrl: './e.component.html',
-  styleUrl: './e.component.css'
+  styleUrl: './e.component.css',
+  standalone: false,
 })
 export class EComponent {
 

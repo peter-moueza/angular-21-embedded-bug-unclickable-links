@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-c',
-  imports: [],
+  //imports: [],
   templateUrl: './c.component.html',
-  styleUrl: './c.component.css'
+  styleUrl: './c.component.css',
+  standalone: false,
 })
 export class CComponent {
 

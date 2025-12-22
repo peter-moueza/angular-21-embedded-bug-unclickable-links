@@ -9,7 +9,7 @@ import { EComponent } from './a/b/c/d/e/e.component';
 export const routes: Routes = [
     {
         path: 'a',
-        component: AComponent,
+        component: AComponent
     },
 
     {
